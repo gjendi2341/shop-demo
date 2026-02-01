@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+
+<h2>Login (Schulprojekt – Simulation)</h2>
+
+<input id="email" placeholder="E-Mail">
+<br><br>
+
+<input id="passwort" placeholder="Passwort">
+<br><br>
+
+<button onclick="senden()">Anmelden</button>
+
+<script>
+  function senden() {
+    // Daten speichern (Simulation)
+    localStorage.setItem("email", document.getElementById("email").value);
+    localStorage.setItem("passwort", document.getElementById("passwort").value);
+
+    // Weiterleitung auf Kerzen-Shop
+    window.location.href = "https://www.ikea.com/de/de/cat/duftkerzen-10754/";
+  }
+</script>
+
+</body>
+</html>

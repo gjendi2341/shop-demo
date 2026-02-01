@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Klick hier zum Login</h2>
+
+<a href="index.html">
+👉 LOGIN SEITE ÖFFNEN
+</a>
+
+</body>
+</html>

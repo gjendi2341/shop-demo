@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hacker Dashboard</title>
+</head>
+<body>
+
+<h2>⚠ Hacker Dashboard (Simulation)</h2>
+
+<p>E-Mail:</p>
+<b id="email">–</b>
+
+<p>Passwort:</p>
+<b id="passwort">–</b>
+
+<script>
+  function update() {
+    document.getElementById("email").innerText =
+      localStorage.getItem("email") || "—";
+
+    document.getElementById("passwort").innerText =
+      localStorage.getItem("passwort") || "—";
+  }
+
+  // alle 0.5 Sekunden aktualisieren
+  setInterval(update, 500);
+</script>
+
+</body>
+</html>
